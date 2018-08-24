@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_FULL_ASSERT, USE_STDPERIPH_DRIVER, STM32F40_41xxx</Define>
               <Undefine></Undefine>
-              <IncludePath>.\src;.\src\cmsis;.\src\global_macros;.\src\mcu_support_package\inc;.\src\mcu_support_package;.\src\retarget;.\src\soft_i2c;.\src\spl;.\src\spl\inc;.\src\time_service;.\src\uart</IncludePath>
+              <IncludePath>.\src;.\src\cmsis;.\src\global_macros;.\src\mcu_support_package\inc;.\src\mcu_support_package;.\src\retarget;.\src\soft_i2c;.\src\spl;.\src\spl\inc;.\src\time_service;.\src\uart;.\src\motors</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -645,6 +645,21 @@
               <FileName>retarget.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\src\retarget\retarget.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>motors</GroupName>
+          <Files>
+            <File>
+              <FileName>motors.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\motors\motors.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>motors.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\motors\motors.h</FilePath>
             </File>
           </Files>
         </Group>

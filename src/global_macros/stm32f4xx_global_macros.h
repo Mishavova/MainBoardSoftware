@@ -30,7 +30,7 @@
 Возврат:    Номер для тактирования
 Замечания: 
 **************************************************************************************************/
-inline uint32_t gpioToRcc( GPIO_TypeDef * gpio)
+inline uint32_t gpioToRcc(GPIO_TypeDef * gpio)
 {
     if(gpio == GPIOA)
         return RCC_AHB1Periph_GPIOA;
